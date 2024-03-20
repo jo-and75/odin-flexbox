@@ -1,12 +1,10 @@
-html{ 
-    box-sizing: border-box;
-} 
-
 *,
 *::before, 
 *::after{ 
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+    padding: 0; 
+    margin: 0;
 } 
 
 img{ 
@@ -31,6 +29,7 @@ button{
     display:flex;  
     height: 75px; 
     background-color: #a4aaa496; 
+    /*Box for logo and telephone*/
     border: solid red; 
     justify-content: space-between; 
     flex-direction: row; 
@@ -38,4 +37,10 @@ button{
     padding-right: 15px;
 }  
 
+.top-page{ 
+    display: flex;  
+    border: solid green;  
+    /*Box for header,button and image*/
+    background-color: #a4aaa496;
+}
 
