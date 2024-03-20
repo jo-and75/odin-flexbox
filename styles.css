@@ -12,7 +12,12 @@ html{
 img{ 
     width: 200px; 
     height: auto;
-} 
+}  
+
+.header-logo{ 
+    width: 80px; 
+    height: auto; 
+}
 
 .header{ 
     display:flex;  
