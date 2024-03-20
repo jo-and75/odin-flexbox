@@ -54,4 +54,10 @@ button{
     display: flex; 
     border:solid yellow; 
     flex-direction: row;
+} 
+
+.photoeggs{ 
+    width: 400px; 
+    height: auto; 
+    
 }
