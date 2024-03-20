@@ -42,5 +42,16 @@ button{
     border: solid green;  
     /*Box for header,button and image*/
     background-color: #a4aaa496;
+} 
+
+.jao-farms{ 
+    display: flex; 
+    flex-direction:column;  
+    border: solid orchid;
 }
 
+.photo{  
+    display: flex; 
+    border:solid yellow; 
+    flex-direction: row;
+}
