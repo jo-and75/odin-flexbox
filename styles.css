@@ -19,6 +19,8 @@ button{
     height: auto;
 }
 
+
+
 .header-logo{ 
     width: 80px; 
     height: auto; 
@@ -47,17 +49,22 @@ button{
 .jao-farms{ 
     display: flex; 
     flex-direction:column;  
-    border: solid orchid;
+    border: solid orchid; 
+    max-width: 600px; 
+    height: auto;
 }
 
 .photo{  
     display: flex; 
     border:solid yellow; 
-    flex-direction: row;
+    flex-direction: row; 
+    justify-content: space-between;
 } 
 
-.photoeggs{ 
-    width: 400px; 
+.photoeggs{  
+    display: flex;
+   transform: rotate(90deg);
+    width: 250px; 
     height: auto; 
-    
+    align-self: center;
 }
