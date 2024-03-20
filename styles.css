@@ -89,4 +89,14 @@ p{
     display: flex; 
     align-items: flex-start;
 
+} 
+
+.middle-content{ 
+    display: flex; 
+    border: solid brown;
+} 
+
+.h2{ 
+    display: flex; 
+    border: solid greenyellow; 
 }
