@@ -98,5 +98,12 @@ p{
 
 .h2{ 
     display: flex; 
-    border: solid greenyellow; 
+    border: solid greenyellow;  
+    align-items: center;
+} 
+
+.images-text{ 
+    display: flex; 
+    border: solid blueviolet; 
+    flex-direction: row;
 }
