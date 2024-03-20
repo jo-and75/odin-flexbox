@@ -5,6 +5,22 @@ html{
 *,
 *::before, 
 *::after{ 
-    box-sizing: inherit;
+    display: flex;
+    flex-direction: column;
 } 
+
+img{ 
+    width: 200px; 
+    height: auto;
+} 
+
+.header{ 
+    display:flex;  
+    height: 75px; 
+    background-color: #879b87; 
+    border: solid red; 
+    justify-content: space-between; 
+    flex-direction: row;
+}  
+
 
