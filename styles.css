@@ -26,12 +26,12 @@ img{
 }    
 
 button{ 
-    width: 80px; 
+    width: 40px; 
     height: auto; 
 } 
 
 h1{ 
-    font-size: 56px; 
+    font-size: 40px; 
     font-weight: "extra-bold"; 
     
 }
@@ -41,10 +41,12 @@ h1{
     display: flex; 
     align-items: center; 
     font-weight: 700; 
-    width: 150px; 
-    height: 40px; 
+    width: 70px; 
+    height: 30px; 
     justify-content: center; 
-    font-size: 25px;
+    font-size: 12px; 
+    border-radius: 5px; 
+    border: solid black;
 }
 
 p{ 
@@ -84,7 +86,8 @@ h3{
     display: flex;  
     /*Box for header,button and image*/
     background-color: #b04329;  
-    max-height: 1000px; 
+    max-height: 1000px;   
+    min-height: 150px;
 } 
 
 .jao-farms{ 
@@ -93,21 +96,21 @@ h3{
     width: 800px; 
     height: auto; 
     text-align: justify; 
-    padding: 5px 5px; 
+    padding-top: 5px; 
+    padding-left: 20px; 
     gap: 10px; 
 }
 
 .photo{  
     display: flex; 
     flex-direction: row;   
-    justify-content:center; 
-    object-fit: fill; 
+    justify-content:center;  
     gap: 20px;
 } 
 
 .photoeggs{ /*work here*/
-    width: 510px; 
-    height: 380px;
+    width: 450px; 
+    height: 320px;
     object-fit: cover; 
     margin-left: 30px; 
     border-radius: 30px;
@@ -115,7 +118,7 @@ h3{
 
 .lone-image{  
     width: 700px;  
-    height: 400px;
+    height: 350px;
     display: flex; 
     align-items: flex-start;
 
@@ -126,14 +129,15 @@ h3{
     /*max-height prevents the text from overflowing and clashing when page is minimize*/
     max-height: 2000px; 
     overflow: visible; 
-    overflow-wrap: normal;
+    overflow-wrap: normal;  
+    min-height: 500px;
    
 } 
 
 .h2{ 
     display: flex; 
     align-items: center;  
-    font-size: 30px; 
+    font-size: 25px; 
     margin: 20px;
 } 
 
@@ -142,14 +146,14 @@ h3{
     flex-direction: row; 
     flex-wrap: wrap; 
     justify-content: center; 
-    gap: 50px;
+    gap: 50px; 
 }
 
 .info{ 
     display: flex; 
     flex-direction: row;  
     flex-wrap: wrap; 
-    max-width: 350px; 
+    max-width: 200px; 
     justify-content: center; 
     max-height: 500px;
    } 
@@ -159,8 +163,8 @@ h3{
     display: flex; 
     flex-wrap: wrap; 
    /*Makes images same height and width without changing their aspect ratio*/
-    width: 250px; 
-    height: 250px; 
+    width: 200px; 
+    height: 200px; 
     object-fit: cover;  
     /*Makes image have rounded corners*/
     border-radius: 30px;
@@ -168,11 +172,12 @@ h3{
 
 .text{ 
     text-align: center; 
-    max-width: 200px;
+    max-width: 170px; 
 } 
 
 .h4{ 
-    text-align: center;
+    text-align: center; 
+    font-size: 14px;
 } 
 
 p{ 
@@ -185,24 +190,24 @@ p{
     justify-content: center;   
     align-items: center; 
     max-height: 2000px; 
-    min-height: 500px; 
+    min-height: 350px; 
     padding: 10px 120px; 
-    background-color: #fefae0;  
+    background-color: #fefae0;   
 } 
 
 .p1{ 
-font-size: 14px;
+font-size: 12px;
 }
 
 .p2{ 
-    font-size: 30px;  
+    font-size: 22px;  
     text-align: center; 
     font-weight: lighter;
    
 } 
 
 .p3{ 
-    font-size: 25px;
+    font-size: 16px;
     font-weight: 700; 
     align-self: flex-end;
 } 
@@ -212,13 +217,12 @@ font-size: 14px;
     max-height: 1000px; 
     min-height: 300px; 
     justify-content: center; 
-    align-items: center; 
+    align-items: center;  
 } 
 
 .bottom-text{ 
     display: flex;  
     flex-direction: row;
-    
     height: 125px; 
     width: 1000px; 
     justify-content: center; 
@@ -230,29 +234,31 @@ font-size: 14px;
 } 
 
 .button3{ 
-display: flex; 
-align-self: center; 
-background-color: #2A9D8F;  
-font-weight: 500; 
-font-size: 25px; 
-width: 150px; 
-align-items: center; 
-border-radius: 5px; 
-border: solid whitesmoke; 
-color: #fefae0;
+    display: flex; 
+    align-self: center; 
+    background-color: #2A9D8F;  
+    font-weight: 500; 
+    font-size: 25px; 
+    width: 150px; 
+    align-items: center; 
+    border-radius: 5px; 
+    border: solid whitesmoke; 
+    color: #fefae0;
 } 
 
 .footer{ 
-    display: flex; 
+    display: flex;  
+   
     bottom: 0; 
     left: 0; 
     right: 0; 
-    height: 80px; 
+    height: 65px; 
     align-items: center; 
     justify-content: center;  
     flex-direction: row;
     position:static; 
-    background-color: olive;
+    background-color: olive; 
+   
 } 
 
 .endtext{ 
@@ -271,5 +277,5 @@ color: #fefae0;
 } 
 
 .opening-text{ 
-    font-size: 24px;
+    font-size: 18px;
 }
